@@ -1,0 +1,33 @@
+.header_section{
+    height: 160px;
+    width: 100%;
+    padding: 20px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_left_section{
+    height: 100%;
+    width: 500px;
+}
+.logo_image{
+    object-fit: fill;
+    max-width: 220px;
+}
+.header_right_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header_cin{
+    font-size: 24px;
+    font-weight: 600;
+    color: brown;
+}
+.header_cin_number{
+    font-size: 24px;
+    font-weight: 600;
+    color: #091E42;
+}

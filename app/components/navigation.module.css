@@ -1,0 +1,17 @@
+.navigation_section{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(107, 19, 19);
+    padding: 12px 200px;
+}
+.navigation_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;  
+}
+.navigation_list_element{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
