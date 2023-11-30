@@ -82,7 +82,13 @@ const Main = () => {
               className={styles.body_image_item}
               height={400}
               width={400}
-              src="/1.jpg"
+              src="/2.jpg"
+            />
+            <Image
+              className={styles.body_image_item}
+              height={400}
+              width={400}
+              src="/22.jpg"
             />
           </div>
         </div>

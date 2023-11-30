@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .body_section{
     display: grid;
@@ -5,6 +6,7 @@
     padding: 0px 150px;
     grid-template-columns: auto 400px;
     grid-row: inherit;
+    margin-top: 50px;
 }
 
 .body_information_container{
@@ -22,6 +24,7 @@
     font-size: 28px;
     letter-spacing: 1px;
     font-weight: 500;
+    font-family: system-ui;
     margin-bottom: 5px;
     color: #090a32;
     padding-bottom: 10px;
@@ -30,6 +33,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     font-weight: 400;
+    font-family: cursive;
     color: #091E32;
     padding-left: 20px;
 }

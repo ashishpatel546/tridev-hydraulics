@@ -13,7 +13,9 @@
     width: 100%;
     background: #AFAFB6;
 }
-
+.mapping{
+    width: 100%;
+}
 .footer .content {
     max-width: 140rem;
     margin: auto;

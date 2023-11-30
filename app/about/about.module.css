@@ -10,6 +10,7 @@
 .content_image_container{
     height: 300px;
     width: 600px;
+    margin-top: 18px;
 }
 .content_image{
     aspect-ratio: 2/1;
@@ -23,7 +24,8 @@
     /* grid-template-columns: 80% 20%; */
 }
 .spilt_content{
-    margin: 5px 4px;       
+    margin: 5px 4px;    
+    font-family: Nunito Sans;   
 }
 .main_content{
     padding: 0;
@@ -33,6 +35,7 @@
     color: #091E32;
     font-size: 32px;
     font-weight: 600;
+    font-family: system-ui;
     letter-spacing: 1px;
 }
 .main_sub_heading{
@@ -114,9 +117,11 @@
   }
   .body_sub_heading{
     color: #212222;
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 18px;
     font-weight: 400;
+    font-family: Nunito Sans;  
     letter-spacing: 1.1px;
+    opacity: 0.8;
     margin: 10px 0px 20px 14px;
-
   }
