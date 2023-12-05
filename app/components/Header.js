@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className={styles.header_right_section}>
         <span className={styles.header_cin}>CIN -</span>
-        <span className={styles.header_cin_number}>1234567890</span>
+        <span className={styles.header_cin_number}>U29190HR2022PTC107769</span>
       </div>
     </div>
   );

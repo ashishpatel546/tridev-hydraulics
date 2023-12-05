@@ -15,7 +15,7 @@ const Navigation = () => {
           <Link href="/product">PRODUCTS</Link>
         </li>
         <li className={styles.navigation_list_element} key={"about"}>
-          <Link href="/about">CAREERS</Link>
+          <Link href="/career">CAREERS</Link>
         </li>
         <li className={styles.navigation_list_element} key={"contact"}>
           <Link href="/contact">CONTACT US</Link>

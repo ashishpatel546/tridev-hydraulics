@@ -19,7 +19,7 @@ const Footer = () => {
       <footer className={footerStyles.footer}>
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d298.45425465444293!2d77.28935588049015!3d28.41358739776742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI0JzQ4LjMiTiA3N8KwMTcnMjIuMCJF!5e0!3m2!1sen!2sin!4v1701358208527!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5360.0448078258705!2d77.29112059952551!3d28.413824640016806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddac294e02df%3A0xa0568ff5504cf5ce!2sFaridabad%20s.g.m%20nagar!5e0!3m2!1sen!2sus!4v1701765648559!5m2!1sen!2sus"
             width={100}
             height={350}
             style={{ border: 0 }}

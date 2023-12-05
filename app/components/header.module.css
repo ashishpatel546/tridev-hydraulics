@@ -1,14 +1,14 @@
 .header_section{
     height: 200px;
-    padding: 16px 54px 20px 90px;
+    padding: 16px 70px 20px 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: #fdc001 solid 40px;
+    border-top: #fdc001a3 solid 40px;
     width: 100%;
     background-image: url('/background_04.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -19,13 +19,13 @@
 .logo_image{
     object-fit: fill;
     max-width: 220px;
+    mix-blend-mode: multiply;
 }
 .header_right_section{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: -74px;
 }
 .header_cin{
     font-size: 24px;
