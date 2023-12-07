@@ -10,7 +10,6 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <Navigation />
 
       <div className={styles.body_container}>
         <h1 className={styles.container_h1}> Contact Us</h1>

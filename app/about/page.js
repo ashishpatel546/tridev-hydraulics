@@ -8,7 +8,6 @@ const AboutUs = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <Navigation />
       <div className={styles.content_container}>
         <div className={styles.content_image_container}>
           <Image

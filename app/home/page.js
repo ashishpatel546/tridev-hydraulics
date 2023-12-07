@@ -4,20 +4,87 @@ import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import CarousleComponent from "../components/Carsoule";
 
 const Main = () => {
   return (
     <>
       <Header />
-      <Navigation />
+      {/* <Navigation /> */}
+      {/* <CarousleComponent /> */}
+
+      <div className={styles.new_conatiner}>
+        <div className={styles.skewed}>
+          <div className={styles.text}>
+            <small className={styles.text_small}>Welcome to</small>
+            <h1 className={styles.text_h1}>Tridev Hydraulics Pvt. Limited</h1>
+            <p className={styles.text_p}>
+              Elevate your industrial experience with Tridev Hydraulics, a
+              trailblazer in hydraulic technology. Since our establishment in
+              1990, we've been dedicated to delivering unparalleled solutions
+              for various industries. From cutting-edge Hydraulic Cylinders to
+              innovative Hydraulic Systems, Aircraft Hydraulic Service Trolleys,
+              and state-of-the-art Car Parking Solutions, we consistently
+              redefine industry standards.
+            </p>
+            <Link className={styles.text_link} href="/product">
+              Discover more &rarr;
+            </Link>
+          </div>
+          <div className={styles.image_container}>
+            <div>
+              <Image
+                height={300}
+                width={400}
+                src="/jcb_01.jpg"
+                className={styles.image_tag}
+                alt="Tridev Hydraulics Equipment"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.skewed_left}>
+          <div className={styles.image_container}>
+            <div>
+              <Image
+                height={300}
+                width={400}
+                src="/jcb_03.jpg"
+                className={styles.image_tag}
+                alt="Tridev Hydraulics Manufacturing Facility"
+              />
+            </div>
+          </div>
+          <div className={styles.text}>
+            <small className={styles.text_small}>
+              Welcome to Tridev Hydraulics
+            </small>
+            <h1 className={styles.text_h1}>Innovation in Motion</h1>
+            <p className={styles.text_p}>
+              At Tridev Hydraulics, our commitment to excellence drives every
+              aspect of our operations. Strategically located in IMT Manesar
+              (Gurgaon) and Bangalore, our manufacturing facilities exemplify
+              precision and advanced technology.
+            </p>
+            <p className={styles.text_p}>
+              We take pride in offering top-tier hydraulic solutions tailored to
+              meet the dynamic demands of modern industries. Our dedication to
+              innovation and client satisfaction sets us apart. Explore the
+              possibilities with Tridev Hydraulics today.
+            </p>
+            <Link className={styles.text_link} href="/contact">
+              Contact Us &rarr;
+            </Link>
+          </div>
+        </div>
+      </div>
 
       <div className={styles.body_section}>
         <div className={styles.body_information_container}>
           <div className={styles.information_left}>
             <div className={styles.information_card}>
-              <div className={styles.content_header}>
-                Welcome to Tridev Hydraulics
-              </div>
+              <div className={styles.content_header}>Do you know</div>
               <div className={styles.content_body}>
                 Tridev Hydraulics Pvt. Limited, a pioneering force in hydraulic
                 technology, specializes in crafting top-tier solutions for
@@ -66,15 +133,6 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className={styles.information_right}>
-            <div>
-              <div className={styles.info_right_first}>first</div>
-              <div className={styles.info_right_second}>second</div>
-            </div>
-            <div>
-              <div className={styles.info_right_third}>bottom</div>
-            </div>
-          </div>
         </div>
         <div className={styles.body_image_container}>
           <div>
@@ -93,6 +151,42 @@ const Main = () => {
           </div>
         </div>
       </div>
+
+      <section className={`${styles.about_section} ${styles.layout_padding}`}>
+          <div className={styles.about_row}>
+            <div className={styles.about_col}>
+              <div className={styles.about_detail_box}>
+                <div className={styles.heading_container}>
+                  <h2 className={styles.heading_container_h2}>About Us</h2>
+                </div>
+                <p className={styles.about_detail_p}>
+                  Tridev Hydraulics Pvt. Limited is more than just a hydraulic
+                  technology company; we are pioneers committed to excellence.
+                  Our journey, established in 1990, has been about redefining
+                  industry standards. Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s when an
+                  unknown printer took a galley of type and scrambled it to make
+                  a type specimen book.
+                </p>
+                <Link className={styles.about_detail_box_link} href="/about">
+                  Discover Our Story &rarr;
+                </Link>
+              </div>
+            </div>
+            <div className={styles.about_image_container}>
+              <div className={styles.img_box}>
+                <Image
+                  height={400}
+                  width={400}
+                  className={styles.img_box_img}
+                  src="/about-img.png"
+                  alt="About Us Image"
+                />
+              </div>
+            </div>
+          </div>
+      </section>
 
       <Footer />
     </>

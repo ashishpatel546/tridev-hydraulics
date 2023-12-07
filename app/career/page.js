@@ -236,7 +236,6 @@ const Career = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <Navigation />
       <div className={styles.carrer_info_container}>
         <CompanyOverview />
         <CompanyBenefits />

@@ -10,7 +10,6 @@ const Product = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <Navigation />
 
       <div className={styles.product_container}>
 

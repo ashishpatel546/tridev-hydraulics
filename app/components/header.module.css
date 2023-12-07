@@ -1,39 +1,181 @@
-.header_section{
-    height: 200px;
-    padding: 16px 70px 20px 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-top: #fdc001a3 solid 40px;
-    width: 100%;
-    background-image: url('/background_04.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+.header_section {
+  height: 200px;
+  padding: 16px 70px 20px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: #fdc001a3 solid 40px;
+  width: 100%;
+  background-image: url("/background_04.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
-.header_left_section{
-    height: 100%;
-    width: 500px;
+.header_left_section {
+  height: 100%;
+  width: 500px;
 }
-.logo_image{
-    object-fit: fill;
+.logo_image {
+  object-fit: fill;
+  max-width: 220px;
+  mix-blend-mode: multiply;
+}
+.header_right_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header_cin {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.header_cin_number {
+  font-size: 24px;
+  font-weight: 600;
+  color: #091e42;
+}
+
+/* NEW CSS */
+.header_section_1 {
+  height: 200px;
+  padding: 16px 70px 20px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(188, 142, 224, 1) 0%,
+    rgba(123, 67, 233, 1) 100%
+  );
+}
+.company_name {
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  font-family: Nova Square;
+  color: #e0eff2;
+  margin-top: 16px;
+  font: italic bold 3rem Georgia, Serif;
+  text-shadow: -4px 3px 0 #3a50d9, -4px 2px 0 #0a0e27;
+}
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+.header_right_section_1 {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.logo_image_1{
+    object-fit: contain;
+    position: absolute;
+    left: 60px;
+    top: 80px;
     max-width: 220px;
     mix-blend-mode: multiply;
+    filter: drop-shadow(1px 1px 3px grey);
 }
-.header_right_section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.navigation_section {
+  margin: 0px 20px;
+  height: 50px;
+  width: fit-content;
 }
-.header_cin{
-    font-size: 24px;
-    font-weight: 600;
-    color: brown;
+.navigation_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 14px;
+  list-style: none;
 }
-.header_cin_number{
-    font-size: 24px;
-    font-weight: 600;
-    color: #091E42;
+.navigation_list_element {
+  align-items: center;
+  /* background: #FFFFFF;
+      border: 0 solid #E2E8F0; */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  /* color: #1A202C; */
+  color: #fff;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  padding: 12px 16px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+.navigation_list_element:hover {
+  background: #ffffff;
+  border: 0 solid #e2e8f0;
+  color: #000000;
+  font-weight: 500;
+  transition: background 0.8s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.transitionStyle {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-center both;
+}
+.list_element_name{
+    font-family: popins;
+    font-size: 16px;
+}
+.header_cin_section_1 {
+    position: absolute;
+    height: 42px;
+    /* width: 100px; */
+    padding: 6px 20px;
+    right: 0;
+    width: 40vw;
+    background-color: #e8853a;
+    border-radius: 18px;
+    right: 5rem;
+    top: 8rem;
+}
+
+.header_cin {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.header_cin_number {
+  font-size: 24px;
+  font-weight: 600;
+  color: #091e42;
+}
+
+
+
+/* Media screen query */
+
+@media screen and (max-width: 1280px) {
+    .company_name {
+      font-size: 2rem;
+    }
+    .list_element_name{
+        
+        font-size: 1rem;
+    }
+  }

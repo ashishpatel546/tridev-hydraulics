@@ -16,18 +16,18 @@ export const metadata = {
 const Footer = () => {
   return (
     <>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5360.0448078258705!2d77.29112059952551!3d28.413824640016806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddac294e02df%3A0xa0568ff5504cf5ce!2sFaridabad%20s.g.m%20nagar!5e0!3m2!1sen!2sus!4v1701765648559!5m2!1sen!2sus"
+      width={100}
+      height={350}
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      className={footerStyles.mapping}
+    ></iframe>
       <footer className={footerStyles.footer}>
         <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5360.0448078258705!2d77.29112059952551!3d28.413824640016806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddac294e02df%3A0xa0568ff5504cf5ce!2sFaridabad%20s.g.m%20nagar!5e0!3m2!1sen!2sus!4v1701765648559!5m2!1sen!2sus"
-            width={100}
-            height={350}
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            className={footerStyles.mapping}
-          ></iframe>
         </div>
         <div className={footerStyles.content}>
           <div className={footerStyles.top}>

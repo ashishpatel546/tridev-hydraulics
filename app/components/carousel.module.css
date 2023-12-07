@@ -1,0 +1,28 @@
+.carouselContainer{
+    height: 300px;
+    width: 100%;
+    /* padding-top: 20px; */
+}
+.container_item{
+    /* background-color: #000; */
+    overflow: hidden;
+    padding-top: 10px;
+    mix-blend-mode: multiply;
+}
+.item_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.item_image{
+    height: 300px;
+    width: 100%;
+}
+.item_content_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 250px;
+    color: #fff;
+    font-size: 2rem;
+}
