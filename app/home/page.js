@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styles from "./home.module.css";
 import Header from "../components/Header";
-import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import CarousleComponent from "../components/Carsoule";
@@ -10,7 +9,6 @@ const Main = () => {
   return (
     <>
       <Header />
-      {/* <Navigation /> */}
       {/* <CarousleComponent /> */}
 
       <div className={styles.new_conatiner}>
