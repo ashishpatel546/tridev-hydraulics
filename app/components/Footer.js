@@ -32,7 +32,6 @@ const Footer = () => {
         <div className={footerStyles.content}>
           <div className={footerStyles.top}>
             <div className={footerStyles["logo-details"]}>
-              {/*<i className={footerStyles.fab fa-slack]></i>*/}
               <span className={footerStyles.logo_name}>
                 Let's Visit TRIDEV HYDRAULICS{" "}
               </span>

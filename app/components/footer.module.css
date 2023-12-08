@@ -137,7 +137,12 @@
     width: 35px;
     background: #fff;
 }
-
+.logo_name{
+    color: #fff;
+}
+.link_name{
+    color: #fff;
+}
 .content .link-boxes .box li {
     margin: 6px 0;
     list-style: none;
