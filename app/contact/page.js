@@ -82,7 +82,7 @@ const Contact = () => {
           <section className={styles.contact_section}>
             <h2>
               We'd love to hear{" "}
-              <span className={styles.contact_section_span}> from you </span>
+              <span className={styles.contact_section_span}> From You </span>
             </h2>
 
             <ContactForm />

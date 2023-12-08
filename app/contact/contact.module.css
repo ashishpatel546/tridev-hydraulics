@@ -12,9 +12,9 @@
   margin-bottom: -6rem;
 }
 .container_h1 {
-  margin-top: 3.2rem;
   font-size: 4.2rem;
   padding-top: 1rem;
+  font-family: Nova Square;
 }
 
 /* CSS for card section */
@@ -43,26 +43,31 @@
 .grid_card_span {
   display: inline-block;
   transition: transform 200ms;
+  font-family: popins;
 }
 
 .grid_card_h2 {
   font-size: 1.8rem;
   color: #091e32;
   margin-bottom: 1rem;
+  font-family: popins;
 }
 
 .grid_card_p {
   color: #091e32;
   margin-bottom: 2rem;
   margin-top: 1rem;
+  font-family: popins;
 }
 .grid_card_p_1 {
   margin-bottom: 10px;
   margin-top: 8px;
+  font-family: popins;
   color: #091e32;
 }
 
 .grid_card .last_para {
+  font-family: popins;
   margin-bottom: 3.2rem;
   color: #091e32;
 }
@@ -82,6 +87,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  font-family: Nova Square;
 }
 
 .contact_section_span {
@@ -109,6 +115,7 @@ box-shadow: 0px 0px 16px 5px rgba(45,255,196,0.56);
   display: block;
   text-transform: capitalize;
   color: #fff;
+  font-family: Nova Square;
 }
 
 .contact_form input,
@@ -140,7 +147,7 @@ box-shadow: 0px 0px 16px 5px rgba(45,255,196,0.56);
     color: #000000;
     cursor: pointer;
     display: inline-block;
-    font-family: -apple-system,sans-serif;
+    font-family: popins;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: -.24px;
@@ -157,9 +164,10 @@ box-shadow: 0px 0px 16px 5px rgba(45,255,196,0.56);
   }
   
   .send_message_btn:hover {
-    background-color: #FFC229;
-    box-shadow: #FF6314 0 -6px 8px inset;
+    background-color: #5a2a8f;
+    box-shadow: #5a2a8f 0 -6px 8px inset;
     transform: scale(1.125);
+    color: #fff;
   }
   
   .send_message_btn:active {
