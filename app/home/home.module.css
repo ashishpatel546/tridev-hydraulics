@@ -163,7 +163,7 @@
 .about_row{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 5rem;
     -webkit-box-align: center;
     -ms-flex-align: center;
         align-items: center;
@@ -224,10 +224,13 @@
     margin-bottom: 20px;
   }
 .about_image_container{
-
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
   .img_box {
-    position: relative;
+    position: absolute;
+    transform: rotate(-90deg);
   }
   
   .img-box_img {

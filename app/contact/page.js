@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navigation from "../components/Navigation";
 import ContactForm from "./ContactForm";
 import styles from "./contact.module.css";
 import { MdEmail, MdVoiceChat, MdForum } from "react-icons/md";
