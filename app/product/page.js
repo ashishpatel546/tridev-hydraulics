@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navigation from "../components/Navigation";
 import styles from "./product.module.css";
 import data from "@/app/productData/equipmentData.json";
 import Image from "next/image";

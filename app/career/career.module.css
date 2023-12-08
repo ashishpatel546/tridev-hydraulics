@@ -12,8 +12,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* background-image: url(/background_02.jpg); */
-  /* background-color: #bc8ee0; */
 }
 
 .section{
@@ -35,12 +33,12 @@
   background-color: #7335b7;
   color: #ffffff;
   border-radius: 180px 0 180px 0;
-  height: 60vh;
+  height: 24rem;
 }
 .section:nth-child(odd){
   color: #ffffff;
   border-radius: 0 180px 0 180px;
-  height: 60vh;
+  height: 24rem;
 }
 .section_name{
   font-size: 24px;
@@ -66,4 +64,15 @@
   width: 20px;
   padding: auto;
   margin-right: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section{
+    height: 28rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section{
+    height: 28rem;
+  }
 }
