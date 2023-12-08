@@ -154,10 +154,13 @@
     background-color: #7335b7;
     color: #ffffff;
     border-radius: 200px 0 200px 0;
-    height: 75vh;
+    min-height: 25rem;
+    height: 30rem;
+    max-height: 35rem;
+    overflow: hidden;
   }
 .layout_padding {
-    padding: 90px 0;
+    padding: 4rem 8rem;
     margin: 70px 0;
   }
 .about_row{
@@ -233,6 +236,7 @@
     transform: rotate(-90deg);
   }
   
-  .img-box_img {
+  .img_box_img {
     width: 100%;
+    object-fit: contain;
   }
