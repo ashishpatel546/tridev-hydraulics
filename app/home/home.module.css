@@ -240,3 +240,19 @@
     width: 100%;
     object-fit: contain;
   }
+
+  @media screen and (max-width: 1200px) {
+
+
+    .layout_padding {
+        padding: 2rem 5rem;
+    }
+    .about_detail_p{
+        max-height: 10rem;
+        overflow: hidden;
+    }
+    .about_detail_box_link {
+        display: inline-block;
+        padding: 8px 30px;
+    }
+  }
