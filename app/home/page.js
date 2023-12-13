@@ -151,39 +151,38 @@ const Main = () => {
       </div>
 
       <section className={`${styles.about_section} ${styles.layout_padding}`}>
-          <div className={styles.about_row}>
-            <div className={styles.about_col}>
-              <div className={styles.about_detail_box}>
-                <div className={styles.heading_container}>
-                  <h2 className={styles.heading_container_h2}>About Us</h2>
-                </div>
-                <p className={styles.about_detail_p}>
-                  Tridev Hydraulics Pvt. Limited is more than just a hydraulic
-                  technology company; we are pioneers committed to excellence.
-                  Our journey, established in 1990, has been about redefining
-                  industry standards. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s when an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book.
-                </p>
-                <Link className={styles.about_detail_box_link} href="/about">
-                  Discover Our Story &rarr;
-                </Link>
+        <div className={styles.about_row}>
+          <div className={styles.about_col}>
+            <div className={styles.about_detail_box}>
+              <div className={styles.heading_container}>
+                <h2 className={styles.heading_container_h2}>About Us</h2>
               </div>
-            </div>
-            <div className={styles.about_image_container}>
-              <div className={styles.img_box}>
-                <Image
-                  height={400}
-                  width={400}
-                  className={styles.img_box_img}
-                  src="/about-img.png"
-                  alt="About Us Image"
-                />
-              </div>
+              <p className={styles.about_detail_p}>
+                Tridev Hydraulics Pvt. Limited is more than just a hydraulic
+                technology company; we are pioneers committed to excellence. Our
+                journey, established in 1990, has been about redefining industry
+                standards.Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s when an unknown printer
+                took a galley of type and scrambled it to make a type specimen
+                book.
+              </p>
+              <Link className={styles.about_detail_box_link} href="/about">
+                Discover Our Story &rarr;
+              </Link>
             </div>
           </div>
+          <div className={styles.about_image_container}>
+            <div className={styles.img_box}>
+              <Image
+                height={400}
+                width={400}
+                className={styles.img_box_img}
+                src="/about-img.png"
+                alt="About Us Image"
+              />
+            </div>
+          </div>
+        </div>
       </section>
 
       <Footer />

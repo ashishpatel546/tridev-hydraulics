@@ -176,3 +176,37 @@
     padding: 20px 8rem;
   }
 }
+@media screen and (max-width: 560px) {
+  .content_container {
+    padding: 20px 2.5rem;
+  }
+  .main_content{
+    width: 100%;
+  }
+  .body_content{
+    flex-direction: column;
+  }
+  .body_content_info{
+    width: 100%;
+    padding: 0;
+  }
+  .body_content_image{
+    width: 80%;
+  }
+  .about_content_section{
+    flex-direction: column;
+    row-gap: 16px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .aside_content{
+    width: 90%;
+  }
+  .card{
+    width: 76%;
+    height: 20rem;
+    top: 0;
+    left: 12%;
+  }
+}
