@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Navigation from "../components/Navigation";
+import Header from "../components/Header";``
 import styles from "./career.module.css";
 
 const CompanyOverview = () => (
@@ -9,17 +8,18 @@ const CompanyOverview = () => (
     <h2 className={styles.section_name}>Company Overview</h2>
     <div className={styles.content_container}>
       <p className={`${styles.section_item_list} ${styles.overview_content}`}>
-        Tridev Hydraulics Pvt. Limited, established in 1990, stands as a
-        trailblazer in hydraulic technology. With a steadfast commitment to
-        excellence, we specialize in crafting top-tier solutions for a wide
-        range of industries. Our expertise extends from Hydraulic Cylinders to
-        cutting-edge Hydraulic Systems, Aircraft Hydraulic Service Trolleys, and
-        innovative Car Parking Solutions. At Tridev Hydraulics, we redefine
-        industry standards, leveraging precision and advanced technology at our
-        manufacturing facilities strategically located in IMT Manesar (Gurgaon)
-        and Bangalore. We take pride in delivering quality, innovation, and
-        reliability, ensuring that our clients benefit from state-of-the-art
-        hydraulic solutions tailored to meet the demands of modern industries.
+        Tridev Hydraulics Pvt. Limited, with a legacy of excellence since 2022,
+        we specialize in crafting high-quality parts for a diverse range of
+        hydraulic machinery, stands as a trailblazer in hydraulic technology.
+        With a steadfast commitment to excellence, we specialize in crafting
+        top-tier solutions for a wide range of industries. At Tridev Hydraulics,
+        innovation is at the heart of everything we do. From Hydra cranes to
+        forklifts, truck-mounted cranes to tractor attachments, we cater to your
+        every need with cutting-edge solutions. Our extensive product range
+        includes front loaders, backhoe loaders, sky lift cranes, hook loaders,
+        and more. At Tridev Hydraulics, we redefine industry standards,
+        leveraging precision and advanced technology at our manufacturing
+        facilities strategically located in IMT Manesar (Gurgaon) and Bangalore.
       </p>
     </div>
   </section>

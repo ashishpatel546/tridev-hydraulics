@@ -51,30 +51,14 @@ const Contact = () => {
                 <MdForum size={32} color="red" />{" "}
               </i>
               <h2 className={styles.grid_card_h2}>Address</h2>
-              <p className={styles.grid_card_p}>
-                Monday to Friday Expected
-              </p>
+              <p className={styles.grid_card_p}>Monday to Friday Expected</p>
               <p className={styles.grid_card_p_1}>
                 TRIDEV HYDRAULICS PVT. LTD. <br />
                 F-618, SGM NAGAR, NEAR SHARMA CHOWK
               </p>
-              <p className={styles.grid_card_p_1}>
-              FARIDABAD-121001
-              </p>
-              <p className={styles.grid_card_p_1}>
-                Contact: 9891546668
-              </p>
-              <p className={styles.grid_card_p_1}>
-                GSTIN: 06AAJCT7839G1ZX
-              </p>
-              <p className={styles.grid_card_p_1}>
-                State: 06-Haryana
-              </p>
-              {/* <Link href="/" className={styles.grid_card_link}>
-                {" "}
-                Ask The Community{" "}
-                <span className={styles.grid_card_span}>-&gt;</span>
-              </Link> */}
+              <p className={styles.grid_card_p_1}>FARIDABAD-121001</p>
+              <p className={styles.grid_card_p_1}>GSTIN: 06AAJCT7839G1ZX</p>
+              <p className={styles.grid_card_p_1}>State: 06-Haryana</p>
             </div>
           </div>
 

@@ -3,27 +3,26 @@ import styles from "./home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import CarousleComponent from "../components/Carsoule";
 
 const Main = () => {
   return (
     <>
       <Header />
-      {/* <CarousleComponent /> */}
-
       <div className={styles.new_conatiner}>
         <div className={styles.skewed}>
           <div className={styles.text}>
             <small className={styles.text_small}>Welcome to</small>
             <h1 className={styles.text_h1}>Tridev Hydraulics Pvt. Limited</h1>
             <p className={styles.text_p}>
-              Elevate your industrial experience with Tridev Hydraulics, a
-              trailblazer in hydraulic technology. Since our establishment in
-              1990, we've been dedicated to delivering unparalleled solutions
-              for various industries. From cutting-edge Hydraulic Cylinders to
-              innovative Hydraulic Systems, Aircraft Hydraulic Service Trolleys,
-              and state-of-the-art Car Parking Solutions, we consistently
-              redefine industry standards.
+              Discover Tridev Hydraulics Pvt. Ltd., your trusted partner for
+              premium hydraulic solutions. With a relentless pursuit of
+              excellence, we manufacture high-quality parts for hydraulic
+              machines, including Hydra cranes, forklifts, truck-mounted cranes,
+              and tractor attachments. Our precision-engineered products ensure
+              unparalleled performance and reliability, setting new industry
+              benchmarks. From front loaders to excavators, experience superior
+              quality and service with Tridev Hydraulics. Elevate your hydraulic
+              machinery experience today!
             </p>
             <Link className={styles.text_link} href="/product">
               Discover more &rarr;
@@ -34,7 +33,7 @@ const Main = () => {
               <Image
                 height={300}
                 width={400}
-                src="/jcb_01.jpg"
+                src="/ai-generated-8553973_1920.jpg"
                 className={styles.image_tag}
                 alt="Tridev Hydraulics Equipment"
               />
@@ -48,7 +47,7 @@ const Main = () => {
               <Image
                 height={300}
                 width={400}
-                src="/jcb_03.jpg"
+                src="/machine-1631451_1920.jpg"
                 className={styles.image_tag}
                 alt="Tridev Hydraulics Manufacturing Facility"
               />
@@ -62,8 +61,8 @@ const Main = () => {
             <p className={styles.text_p}>
               At Tridev Hydraulics, our commitment to excellence drives every
               aspect of our operations. Strategically located in IMT Manesar
-              (Gurgaon) and Bangalore, our manufacturing facilities exemplify
-              precision and advanced technology.
+              (Gurgaon), our manufacturing facilities exemplify precision and
+              advanced technology.
             </p>
             <p className={styles.text_p}>
               We take pride in offering top-tier hydraulic solutions tailored to
@@ -86,17 +85,17 @@ const Main = () => {
               <div className={styles.content_body}>
                 Tridev Hydraulics Pvt. Limited, a pioneering force in hydraulic
                 technology, specializes in crafting top-tier solutions for
-                diverse industries. Established in 1990, our commitment to
-                excellence is unwavering. From Hydraulic Cylinders to
-                cutting-edge Hydraulic Systems, Aircraft Hydraulic Service
-                Trolleys, and innovative Car Parking Solutions, we redefine
-                industry standards. Our manufacturing facilities, strategically
-                located in IMT Manesar (Gurgaon) and Bangalore, symbolize
-                precision and advanced technology. At Tridev Hydraulics, we
-                pride ourselves on delivering quality, innovation, and
-                reliability, ensuring that our clients benefit from
-                state-of-the-art hydraulic solutions tailored to meet the
-                demands of modern industries
+                diverse industries. At Tridev Hydraulics, innovation is at the
+                heart of everything we do. From Hydra cranes to forklifts,
+                truck-mounted cranes to tractor attachments, we cater to your
+                every need with cutting-edge solutions. Our extensive product
+                range includes front loaders, backhoe loaders, sky lift cranes,
+                hook loaders, and more. Experience the difference with Tridev
+                Hydraulics. Our commitment to quality, performance, and customer
+                satisfaction sets us apart. Explore our website to discover our
+                comprehensive range of products and services. Join us in
+                revolutionizing the hydraulic machinery industry. Unlock the
+                power of precision with Tridev Hydraulics today!
               </div>
             </div>
             <div className={styles.information_card}>
@@ -115,19 +114,19 @@ const Main = () => {
               <div className={styles.content_body}>
                 Tridev Hydraulics Pvt. Limited operates a cutting-edge
                 Manufacturing Plant strategically located in IMT Manesar
-                (Gurgaon) and Bangalore. Established in 1990, our plant
-                epitomizes precision and advanced hydraulic technology.
-                Specializing in Hydraulic Cylinders, advanced Hydraulic Systems,
-                Aircraft Hydraulic Service Trolleys, and innovative Car Parking
-                Solutions, we set new industry benchmarks. Our ISO 9001:2015
-                certification reflects our unwavering commitment to high-quality
-                standards. The plant, staffed with skilled professionals, is
-                equipped with modern facilities. Quality analysts ensure that
-                each product meets our standards of excellence. Tridev
-                Hydraulics is dedicated to delivering top-notch hydraulic
-                solutions, aligning with the dynamic needs of modern industries.
-                Our Manufacturing Plant stands as a testament to our continual
-                pursuit of excellence in hydraulic technology.
+                (Gurgaon). Established in 2022, our plant epitomizes precision
+                and advanced hydraulic technology. Specializing in Hydraulic
+                Cylinders, advanced Hydraulic Systems, Aircraft Hydraulic
+                Service Trolleys, we set new industry benchmarks. Our ISO
+                9001:2015 certification reflects our unwavering commitment to
+                high-quality standards. The plant, staffed with skilled
+                professionals, is equipped with modern facilities. Quality
+                analysts ensure that each product meets our standards of
+                excellence. Tridev Hydraulics is dedicated to delivering
+                top-notch hydraulic solutions, aligning with the dynamic needs
+                of modern industries. Our Manufacturing Plant stands as a
+                testament to our continual pursuit of excellence in hydraulic
+                technology.
               </div>
             </div>
           </div>
@@ -160,11 +159,11 @@ const Main = () => {
               <p className={styles.about_detail_p}>
                 Tridev Hydraulics Pvt. Limited is more than just a hydraulic
                 technology company; we are pioneers committed to excellence. Our
-                journey, established in 1990, has been about redefining industry
-                standards.Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s when an unknown printer
-                took a galley of type and scrambled it to make a type specimen
-                book.
+                journey, established in 2022, has been about redefining industry
+                standards. we continually redefine industry standards, setting
+                new benchmarks for hydraulic performance and efficiency. Trust
+                Tridev Hydraulics for cutting-edge solutions that power your
+                success.
               </p>
               <Link className={styles.about_detail_box_link} href="/about">
                 Discover Our Story &rarr;

@@ -4,15 +4,11 @@ import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const pathName = usePathname();
   const [isHamburgerOpen, setisHamburgerOpen] = useState(false);
-
-  useEffect(() => {
-    console.log("pathName", pathName);
-  }, [pathName]);
 
   return (
     <div className={styles.header_section_1}>
@@ -104,14 +100,12 @@ const Header = () => {
           </ul>
         )}
       </div>
-      <marquee direction="left" className={styles.header_cin_section_1}>
-        <div>
+        <div className={styles.header_cin_section_1}>
           <span className={styles.header_cin}>CIN -</span>
           <span className={styles.header_cin_number}>
             U29190HR2022PTC107769
           </span>
         </div>
-      </marquee>
     </div>
   );
 };
