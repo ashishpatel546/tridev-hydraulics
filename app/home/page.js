@@ -43,11 +43,11 @@ const Main = () => {
 
         <div className={styles.skewed_left}>
           <div className={styles.image_container}>
-            <div>
+            <div>/
               <Image
                 height={300}
                 width={400}
-                src="/machine-1631451_1920.jpg"
+                src="/44.jpg"
                 className={styles.image_tag}
                 alt="Tridev Hydraulics Manufacturing Facility"
               />
