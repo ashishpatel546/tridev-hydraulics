@@ -60,7 +60,7 @@ const LoginPage = () => {
         Notify(data.message, "warn");
       }
     } catch (error) {
-      Notify("Failed to updated data", "error");
+      Notify("Interna server error", "error");
       setIsEditModal(false);
     }
   };
