@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "name": "Item 111",
-    "img": "image1.jpg",
-    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in new."
+    "name": "Item 1",
+    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in.",
+    "img": "image1.jpg"
   },
   {
     "id": 2,
-    "name": "Item 2",
-    "img": "image2.jpg",
-    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in every task."
+    "name": "Item 2 ",
+    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in every task.",
+    "img": "image2.jpg"
   },
   {
     "id": 3,
@@ -56,8 +56,8 @@
   {
     "id": 10,
     "name": "Item 10",
-    "img": "image10.jpg",
-    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in every task."
+    "additionalInfo": "From construction sites to manufacturing plants, our heavy machine equipment stands as a cornerstone, driving productivity and precision in .",
+    "img": "image10.jpg"
   },
   {
     "id": 11,

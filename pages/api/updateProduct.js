@@ -25,37 +25,38 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: "Method Not Allowed" });
   }
 
-  const data = json.parse(req.body)
-  const file = req.body.file;
-  if (!file) {
-    return res.status(400).json({ error: 'No file provided' });
-  }
+  // const apiReqData = json.parse(req.body)
+  // console.log('apiReqData', apiReqData)
+  // const file = req.body.file;
+  // if (!file) {
+  //   return res.status(400).json({ error: 'No file provided' });
+  // }
 
-  const fileName = file.name;
-  const filePath = path.join(process.cwd(), 'public', fileName);
+  // const fileName = file.name;
+  // const filePath = path.join(process.cwd(), 'public', fileName);
+
+  // try {
+  //   await fs.promises.writeFile(filePath, file);
+  //   return res.status(200).json({ success: true });
+  // } catch (error) {
+  //   console.error('Error saving file:', error);
+  //   return res.status(500).json({ error: 'Internal Server Error' });
+  // }
+
 
   try {
-    await fs.promises.writeFile(filePath, file);
-    return res.status(200).json({ success: true });
-  } catch (error) {
-    console.error('Error saving file:', error);
-    return res.status(500).json({ error: 'Internal Server Error' });
-  }
+    // upload.single("image")(req, res, (err) => {
+    //   if (err) {
+    //     return res
+    //       .status(500)
+    //       .json({ message: "Internal Server Error", error: err });
+    //   }
 
-
-  try {
-    upload.single("image")(req, res, (err) => {
-      if (err) {
-        return res
-          .status(500)
-          .json({ message: "Internal Server Error", error: err });
-      }
-
-      if (!req.file) {
-        return res.status(400).json({ message: "No file uploaded" });
-      }
-      return res.status(200).json({ message: "File uploaded successfully" });
-    });
+    //   if (!req.file) {
+    //     return res.status(400).json({ message: "No file uploaded" });
+    //   }
+    //   return res.status(200).json({ message: "File uploaded successfully" });
+    // });
 
     const filePath = path.join(
       process.cwd(),

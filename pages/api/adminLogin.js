@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         password === process.env.ADMIN_PASSWORD
       ) {
         const token = jwt.sign({ name }, process.env.NEXT_PUBLIC_JWT_SECRET, {
-          expiresIn: "30m",
+          expiresIn: "60m",
         });
 
         res.status(200).json({

@@ -89,7 +89,7 @@ const Product = () => {
         method: "POST",
         headers: {
           // "Content-Type": "multipart/form-data",
-          // "Content-Type": "application/json",
+          "Content-Type": "application/json",
           Authorization: `Bearer ${adminData.jwtToken}`,
         },
         // body: JSON.stringify(updatedProductData)
@@ -283,7 +283,7 @@ const Product = () => {
             />
           </Col>
         </Row>
-        <Row gutter={24} className={styles.modal_row}>
+        {/* <Row gutter={24} className={styles.modal_row}>
           <Col span={6}>
             <label className={styles.product_add_label}>Upload image :</label>
           </Col>
@@ -297,7 +297,7 @@ const Product = () => {
               </p>
             </Dragger>
           </Col>
-        </Row>
+        </Row> */}
 
         <Modal
           open={previewOpen}
